@@ -145,20 +145,16 @@ The app will launch on `http://localhost:7860`.
 road-damage-detection/
 ├── README.md
 ├── requirements.txt
-├── app.py                          # Gradio deployment app
+├── app.py                              # Gradio deployment app
 ├── notebooks/
-│   ├── 01_eda.ipynb                # Data exploration & visualization
-│   ├── 02_yolov8s_training.ipynb
-│   ├── 03_yolov9s_training.ipynb
-│   ├── 04_yolo11s_training.ipynb
-│   └── 05_model_comparison.ipynb   # Final comparison & selection
+│   └── road_damage_detection.ipynb     # Full pipeline: EDA, training (v8s/v9s/v11s), comparison
 ├── results/
 │   ├── comparison_training_curves.png
 │   ├── comparison_final_metrics.png
 │   ├── comparison_efficiency.png
 │   └── comparison_per_class.png
 ├── weights/
-│   └── best_yolo11s.pt             # Final selected model weights
+│   └── best_yolo11s.pt                 # Final selected model weights
 └── docs/
     └── screenshots/
 ```
@@ -176,7 +172,7 @@ road-damage-detection/
 
 ## 👤 Author
 
-**Youssef kazoun** 
+**Youssef** — SFC Trading
 
 ---
 
