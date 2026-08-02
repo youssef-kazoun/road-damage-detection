@@ -176,7 +176,7 @@ road-damage-detection/
 
 ## 👤 Author
 
-**Youssef** — SFC Trading
+**Youssef kazoun** 
 
 ---
 
