@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+env/
+
+# Dataset (too large / re-downloadable via Roboflow)
+data/
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradio
+flagged/
+gradio_cached_examples/
+
+# Large model weight backups (keep only the final selected model)
+weights/*.pt
+!weights/best_yolo11s.pt
