@@ -4,6 +4,8 @@ A deep learning pipeline for detecting road surface damage from aerial drone ima
 
 ![Demo](docs/screenshots/demo_result.png)
 
+### 🚀 [**Try the Live Demo →**](https://huggingface.co/spaces/youssefkazoun/road-damage-detection)
+
 ---
 
 ## 📋 Project Overview
@@ -122,6 +124,8 @@ This limitation is disclosed here transparently rather than glossed over, since 
 ---
 
 ## 🚀 Deployment
+
+**Live demo:** [huggingface.co/spaces/youssefkazoun/road-damage-detection](https://huggingface.co/spaces/youssefkazoun/road-damage-detection)
 
 A Gradio web app (`app.py`) allows users to upload a drone image and receive:
 - Annotated image with bounding boxes and class labels
